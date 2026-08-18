@@ -34,4 +34,4 @@ The project demonstrates tensor-network-based numerical computation in clean, mo
 ├── README.md
 ├── itebd_simulation.py
 └── run_simulation.sh
-
+```markdown
