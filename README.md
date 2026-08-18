@@ -43,3 +43,23 @@ The project demonstrates tensor-network-based numerical computation in clean, mo
 
 git clone https://github.com/Amirsalimi96/itebd-heisenberg-simulation.git
 cd itebd-heisenberg-simulation
+Install the required packages:
+pip install numpy scipy matplotlib
+
+## Usage
+Run the simulation locally with:
+
+python itebd_simulation.py
+
+## Running on an HPC Cluster
+
+sbatch run_simulation.sh
+
+## Author
+
+PhD Student in Condensed Matter Physics
+
+GitHub: @Amirsalimi96
+
+
+پ
