@@ -34,39 +34,3 @@ The project demonstrates tensor-network-based numerical computation in clean, mo
 ├── README.md
 ├── itebd_simulation.py
 └── run_simulation.sh
-Installation
-Clone the repository:
-
-bash
-git clone https://github.com/Amirsalimi96/itebd-heisenberg-simulation.git
-cd itebd-heisenberg-simulation
-Install the required packages:
-
-bash
-pip install numpy scipy matplotlib
-Usage
-Run the simulation locally with:
-
-bash
-python itebd_simulation.py
-Running on an HPC Cluster
-You can also run the simulation using the provided SLURM batch script:
-
-bash
-sbatch run_simulation.sh
-Before submission, make sure to adapt the environment setup and resource requests to your cluster configuration.
-
-Why This Project?
-This project demonstrates:
-
-Scientific programming in Python
-Numerical linear algebra and SVD-based truncation
-Tensor-style array operations
-Modular and object-oriented code design
-Familiarity with Linux, Bash, and HPC/SLURM workflows
-Author
-Amir Salimi
-
-PhD Student in Condensed Matter Physics
-
-GitHub: @Amirsalimi96
