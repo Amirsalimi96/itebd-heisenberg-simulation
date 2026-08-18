@@ -36,3 +36,13 @@ The project demonstrates how tensor-network-inspired numerical methods can be im
 ├── .gitignore
 ├── README.md
 └── itebd_tensor_simulation.py
+
+## Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/Amirsalimi96/itebd-heisenberg-simulation.git
+cd itebd-heisenberg-simulation
+
+pip install numpy scipy matplotlib
+
