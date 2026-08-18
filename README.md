@@ -1,20 +1,38 @@
 # 1D Heisenberg Model Simulation using iTEBD
 
-This repository contains a Python implementation of the **infinite Time-Evolving Block Decimation (iTEBD)** algorithm for simulating 1D quantum spin systems (Heisenberg antiferromagnet).
+This repository contains a Python implementation of the **infinite Time-Evolving Block Decimation (iTEBD)** algorithm for simulating a 1D quantum spin-\(\frac{1}{2}\) Heisenberg system under an external magnetic field.
+
+The project demonstrates how tensor-network-inspired numerical methods can be implemented in **clean, modular Python** using standard scientific libraries.
+
+---
 
 ## Features
-- Implementation of Matrix Product States (MPS) and tensor contractions.
-- Ground state energy calculation using imaginary time evolution.
-- Numerical simulation and data visualization using NumPy, SciPy, and Matplotlib.
-- Bash scripts for batch execution on Linux/HPC clusters.
 
-## Requirements
-- Python 3.8+
-- NumPy
-- SciPy
-- Matplotlib
+- Object-oriented implementation of an iTEBD-inspired simulation workflow
+- Construction of the two-site Heisenberg Hamiltonian
+- Imaginary-time evolution using **Trotter decomposition**
+- Tensor contractions with **NumPy**
+- Singular Value Decomposition (**SVD**) for truncation and state update
+- Magnetization measurement as a function of external magnetic field
+- Scientific plotting with **Matplotlib**
+- Structured logging for monitoring simulation progress
 
-## Usage
-To run the ground state energy simulation:
+---
+
+## Technologies Used
+
+- **Python**
+- **NumPy**
+- **SciPy**
+- **Matplotlib**
+- **Logging**
+- **Object-Oriented Programming (OOP)**
+
+---
+
+## Project Structure
 ```bash
-python itebd_simulation.py
+.
+├── .gitignore
+├── README.md
+└── itebd_tensor_simulation.py
