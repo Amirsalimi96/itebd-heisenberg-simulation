@@ -1,48 +1,37 @@
 # 1D Heisenberg Model Simulation using iTEBD
 
-This repository contains a Python implementation of the **infinite Time-Evolving Block Decimation (iTEBD)** algorithm for simulating a 1D quantum spin-\(\frac{1}{2}\) Heisenberg system under an external magnetic field.
+This repository contains a Python implementation of an **infinite Time-Evolving Block Decimation (iTEBD)**-inspired workflow for simulating a one-dimensional spin-$\frac{1}{2}$ Heisenberg system under an external magnetic field.
 
-The project demonstrates how tensor-network-inspired numerical methods can be implemented in **clean, modular Python** using standard scientific libraries.
-
----
+The project demonstrates tensor-network-based numerical computation in clean, modular Python using standard scientific libraries.
 
 ## Features
 
 - Object-oriented implementation of an iTEBD-inspired simulation workflow
-- Construction of the two-site Heisenberg Hamiltonian
-- Imaginary-time evolution using **Trotter decomposition**
-- Tensor contractions with **NumPy**
-- Singular Value Decomposition (**SVD**) for truncation and state update
+- Construction of a two-site Heisenberg Hamiltonian
+- Imaginary-time evolution using Trotter decomposition
+- Tensor contractions with NumPy
+- Singular Value Decomposition (SVD) for truncation and state updates
 - Magnetization measurement as a function of external magnetic field
-- Scientific plotting with **Matplotlib**
+- Scientific visualization with Matplotlib
 - Structured logging for monitoring simulation progress
-
----
+- SLURM/Bash batch script for execution on Linux HPC clusters
 
 ## Technologies Used
 
-- **Python**
-- **NumPy**
-- **SciPy**
-- **Matplotlib**
-- **Logging**
-- **Object-Oriented Programming (OOP)**
-
----
+- Python
+- NumPy
+- SciPy
+- Matplotlib
+- Bash
+- SLURM
+- Logging
+- Object-Oriented Programming (OOP)
 
 ## Project Structure
-```bash
+
+```text
 .
 ├── .gitignore
 ├── README.md
-└── itebd_tensor_simulation.py
-
-## Installation
-
-Clone the repository:
-```bash
-git clone https://github.com/Amirsalimi96/itebd-heisenberg-simulation.git
-cd itebd-heisenberg-simulation
-
-pip install numpy scipy matplotlib
-
+├── itebd_simulation.py
+└── run_simulation.sh
