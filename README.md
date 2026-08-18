@@ -34,3 +34,9 @@ The project demonstrates tensor-network-based numerical computation in clean, mo
 ├── README.md
 ├── itebd_simulation.py
 └── run_simulation.sh
+Installation
+Clone the repository:
+
+bash
+git clone https://github.com/Amirsalimi96/itebd-heisenberg-simulation.git
+cd itebd-heisenberg-simulation
