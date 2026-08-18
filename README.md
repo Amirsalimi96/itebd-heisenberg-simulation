@@ -28,10 +28,10 @@ The project demonstrates tensor-network-based numerical computation in clean, mo
 - Object-Oriented Programming (OOP)
 
 ## Project Structure
-
 ```text
 .
 ├── .gitignore
 ├── README.md
 ├── itebd_simulation.py
 └── run_simulation.sh
+
